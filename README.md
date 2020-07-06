@@ -3,7 +3,7 @@
 Send mails through the [SimpleMailerAPI](https://mail.asss.ist/) for simple mail send for free. No need of a mailserver.
 
 ## Install
-    
+
     npm i sefmail
 
 ## Usage
@@ -18,11 +18,12 @@ Send mails through the [SimpleMailerAPI](https://mail.asss.ist/) for simple mail
 
 ## sefMail.mail() parameters
 
-* **from** is the sender of the mail with a syntax of `Name <Mail>`
-* **to** is the receiver of the mail with a syntax of `Name <Mail>`
-* **subject** is the subject of the mail
-* **content** is the content of the mail
-* **callback** is the callback function - `callback(response)`
+- **from** is the sender of the mail with a syntax of `Max Mustermann <max@mustermann.com>`
+- **to** is the receiver of the mail with a syntax of `max@mustermann.com`
+- **subject** is the subject of the mail
+- **content** is the content of the mail
+- **callback** is the callback function - `callback(response)`
 
 ## License
+
 [ISC](LICENSE.md)
