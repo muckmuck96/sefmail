@@ -12,6 +12,13 @@
     "type": "git",
     "url": "https://github.com/muckmuck96/sefmail.git"
   },
+  "keywords": [
+    "mail",
+    "simple",
+    "fast",
+    "mailer",
+    "mailing"
+  ],
   "license": "ISC",
   "dependencies": {
     "fetch": "^1.1.0"
