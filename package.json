@@ -1,6 +1,6 @@
 {
   "name": "sefmail",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "An API for sending application side mails",
   "main": "index.js",
   "scripts": {
