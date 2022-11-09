@@ -3,26 +3,28 @@
 Send mails through the [SimpleMailerAPI](https://mail.asss.ist/) for simple mail send for free. No need of a mailserver.
 
 ## Install
-
-    npm i sefmail
-
+```bash
+npm i sefmail
+```
 ## Usage
+```javascript
+var sefMail = require("sefmail");
 
-    var sefMail = require("sefmail");
+// Requires an api token which you can get from the SimpleMailerAPI Site
+sefMail.config.apiToken = 'YOUR_API_TOKEN';
 
-    // Requires an api token which you can get from the SimpleMailerAPI Site
-    sefMail.config.apiToken = 'YOUR_API_TOKEN';
+// Send a mail
+sefMail.mail(from, to, subject, content, callback);
+```
+## `sefMail.mail()` parameters
 
-    // Send a mail
-    sefMail.mail(from, to, subject, content, callback);
-
-## sefMail.mail() parameters
-
-- **from** is the sender of the mail with a syntax of `Max Mustermann <max@mustermann.com>`
-- **to** is the receiver of the mail with a syntax of `max@mustermann.com`
-- **subject** is the subject of the mail
-- **content** is the content of the mail
-- **callback** is the callback function - `callback(response)`
+| param | syntax | description |
+| ------| ------- | ----------- |
+| from | `Max Mustermann <max@mustermann.com>` | the sender of the mail |
+| to | `max@mustermann.com` | the receiver of the mail |
+| subject | - | the subject of the mail |
+| content | - | the content of the mail |
+| callback | `callback(response)` | the callback function on execution | 
 
 ## License
 
